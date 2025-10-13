@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&family=Tagesschrift&display=swap" rel="stylesheet">
+
+	<link rel= "stylesheet" type="text/css" href="styles_Q1SkillsTest.css">
+
+</head>
+
+<body>
+	<form>
+		<center><h1>OBMC Robotics Club Application Form</h1></center>
+
+		<h4>Welcome! Please fill out the form below if you're interested to join our school's Electronics Club.
+
+		<br><br>
+			<a href= "https://www.simplilearn.com/future-of-robotics-article">What Is Robotics?</li></a>
+		</h4>
+
+		<label for="fnll">Full Name:</label>
+		<input type="text" name="flln" placeholder="Zara Yarra">
+
+	<br><br>
+
+		<label for="email">Email:</label>
+		<input type="text" name="email" placeholder="zara_yarra@gmail.com">
+
+	<br><br>
+
+		<fieldset>
+		<label for="wdyhi">Grade Level:</label>
+		<br><br>
+
+		<select id="select" name: "Grade 7">
+		<option value="g7">Grade 7</option>
+		<option value="g8">Grade 8</option>
+		<option value="g9">Grade 9</option>
+		<option value="g10">Grade 10</option>
+
+		</select>
+
+		</fieldset>
+	
+	<br>
+		
+		<fieldset>	
+
+				<p>Gender:<p>
+				
+				<input type ="radio" id="m" name="sex"> 
+				<label for="m">Male</label>
+
+				<input type ="radio" id="f" name="sex"> 
+				<label for="f">Female</label>
+
+		</fieldset>
+
+<br>	
+		<fieldset>
+				<p>What are your skills?</p>
+			
+				<input type="checkbox" name="cod">
+				<label for= "cod">Coding</label>
+
+				<input type="checkbox" name="des">
+				<label for= "des">Design</label>
+
+				<input type="checkbox" name="elec">
+				<label for= "elec">Electronics</label>
+
+		</fieldset>
+
+<br>
+
+		<fieldset>
+	
+				<label for="fnll">Tell us why you wanna join:</label>
+				<br><br>
+				<textarea cols="70" rows="5" color="white" placeholder="400 Characters max."></textarea>
+
+		</fieldset>
+
+	<form>
+
+<br>
+
+	<input type="submit" name="Submit Application" value="Submit Recommentation">
+
+</body>
+</html>
